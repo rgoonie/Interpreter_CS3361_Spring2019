@@ -1,3 +1,12 @@
+/**
+ *  @author Rajeev Goonie
+ * 
+ * This file is used to execute the input after checked by lexical analyzer.
+ * Assumptions: 
+ *      -There will only be one period in the input.
+ *      -The first instance of a period is the end, anything after will be ignored
+ *      -If an error occurs, state will not be updated
+ */
 
 import java.util.HashMap;
 import java.util.Stack;
