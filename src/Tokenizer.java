@@ -1,4 +1,8 @@
-
+/**
+ * @author Rajeev Goonie
+ * 
+ * This file is used to parse through input and get next token in the input
+ */
 
 
 public class Tokenizer {
