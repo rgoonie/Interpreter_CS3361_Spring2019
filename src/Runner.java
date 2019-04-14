@@ -19,7 +19,7 @@ public class Runner {
         LexicalAnalyzer syntax = new LexicalAnalyzer();
         SemanticAnalyzer semantics = new SemanticAnalyzer();
         
-        //
+        //heading to program
         System.out.println("-------------------------------------------");
         System.out.println("The Rajeev Project - Boolean Evaluator v3.5");
         System.out.println("-------------------------------------------");
