@@ -1,3 +1,15 @@
+/**
+ * @author Rajeev Goonie
+ * 
+ * This file is used to check the syntax of the input. The syntax is listed above each function
+ * 
+ * Assumptions: 
+ *      -There will only be one period in the input
+ *      -The first instance of a period is the end, anything after will be ignored
+ * 
+ * Note:
+ *      Syntax equations that have nothing in them represents an end symbol
+ */
 
 public class LexicalAnalyzer {
     
@@ -6,7 +18,6 @@ public class LexicalAnalyzer {
         
     /**
      * @param input What is read in from keyboard
-     * @param out Used to return code
      * @return 
      */
     public boolean isCorrect(String input){
