@@ -2,6 +2,33 @@
  *  @author Rajeev Goonie
  * 
  *  This file is the runner for the interpreter. This application will run in command line/bash
+ *  
+ *  Assumptions:
+ *      Input will continue to collect input until a period is in it
+ * 
+ *  Note:
+ *      -In line comments placed in all files
+ *      -Assumptions made are at the top of all files
+ *      
+ *  Test Cases:
+ *      Input: (((T -> F) -> (T -> F)) ^ (F -> T)) -> F.
+ *      Output: false
+ * 
+ *      Input: (((T -> F) -> (T -> F)) ^ (F -> T)) -> T.
+ *      Output: true
+ * 
+ *      Input: Input: ~~F -> ~~T.
+ *      Output: true
+ *      
+ *      Input: (T v F) -> (F ^ T).
+ *      Output: false
+ *
+ *      Input: T - > T.
+ *      Output: Error token not found '-'
+ * 
+ *      Input: T.T -> F.
+ *      Output: true
+ *      Note: Anything after the first period is ignored. If wanted to run both lines, do separately
  * 
  */
 
